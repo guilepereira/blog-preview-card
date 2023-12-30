@@ -19,7 +19,7 @@
 
   /* font */
   --family-main: 'Figtree', sans-serif;
-  --weight-extra-bold: 800;
+  --weight-extra-bold: 900;
   --weight-semi-bold: 600;
 }
 
@@ -44,81 +44,7 @@ body {
   gap: 2.4rem;
 }
 
-.card {
-  height: 50rem;
-  width: 32.5rem;
-  padding: 2.2rem;
-  border-radius: 2rem;
-  border: 0.13rem solid var(--color-black);
-  background-color: var(--color-white);
-  transition: box-shadow 0.6s ease-out;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-}
-
-.card:hover {
-  box-shadow: .8rem .8rem 0 var(--color-black);
-}
-
-.cardCover {
-  height: 20rem;
-  width: 27.9rem;
-  border-radius: 1rem;
-  object-fit: cover;
-}
-
-.cardHeader {
-  /* height: 100%; */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 1.6rem;
-}
-
-.cardHeader > span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  border-radius: .3rem;
-  background-color: var(--color-yellow);
-  width: 7.3rem;
-  height: 2.6rem;
-
-  font-weight: 900;
-  font-size: 1.2rem;
-}
-
-.cardHeader > small {
-  font-size: 1.2rem;
-  line-height: 1.2rem;
-  font-weight: 600;
-}
-
-.cardTitle {
-  font-size: 2rem;
-  line-height: 1rem;
-  font-weight: var(--weight-extra-bold);
-  color: var(--color-black);
-  transition: color 0.5s ease;
-}
-
-.cardTitle:hover {
-  color: var(--color-yellow);
-}
-
-.cardDescription, .author {
-  font-size: 1.4rem;
-  font-weight: 600;;
-}
-
-.cardDescription {
-  color: var(--color-grey);
-  line-height: 2.1rem;
-}
 
 .author {
   display: flex;
