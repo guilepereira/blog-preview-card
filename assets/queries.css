@@ -1,6 +1,6 @@
 @media screen and (min-width: 1080px)  {
   .card {
-    width: 38.3rem;
+    width: 38.4rem;
     height: 52.2rem;
   }
 
@@ -21,12 +21,11 @@
 
   .cardTitle {
     font-size: 2.4rem;
-    line-height: 1.2rem;
+    line-height: 3rem;
   }
 
   .cardDescription {
-    font-size: 1.6rem;
+    font-size: 1.58rem;
     line-height: 2.4rem;
   }
-
 }
