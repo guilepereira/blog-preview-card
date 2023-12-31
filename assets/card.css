@@ -1,3 +1,5 @@
+/* container */
+
 .card {
   box-sizing: border-box;
   height: 50.1rem;  
@@ -16,12 +18,18 @@
   box-shadow: .8rem .8rem 0 var(--color-black);
 }
 
-.cardCover {
+
+/* imagem */
+
+.cardImage {
   height: 20.1rem;
   width: 100%;
   border-radius: 1rem;
   object-fit: cover;
 }
+
+
+/* conteúdo de texto */
 
 .cardContent {
   display: flex;
@@ -67,14 +75,26 @@
   color: var(--color-yellow);
 }
 
-.author {
-  font-size: 1.43rem;
-  font-weight: 600;
-}
-
 .cardDescription {
   font-size: 1.4rem;
   font-weight: 600;
   color: var(--color-grey);
   line-height: 2.1rem;
+}
+
+
+/* autor */
+
+.author {
+  font-size: 1.43rem;
+  font-weight: 900;
+  line-height: 1.2rem;
+  
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.authorPicture {
+  width: 3.2rem;
 }
