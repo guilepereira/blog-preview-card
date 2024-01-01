@@ -2,6 +2,7 @@
   .card {
     width: 38.4rem;
     height: 52.2rem;
+    margin: 2.4rem 0 2.2rem 0;
   }
 
   .cardImage {
@@ -9,8 +10,8 @@
   }
 
   .cardHeader > span {
-    width: 8.2rem;
-    height: 3rem;
+    width: 8.19rem;
+    height: 2.94rem;
     font-size: 1.4rem;
   }
 
@@ -20,12 +21,21 @@
   }
 
   .cardTitle {
-    font-size: 2.4rem;
-    line-height: 3rem;
+    font-size: 2.39rem;
+    line-height: 3.26rem;
   }
 
   .cardDescription {
     font-size: 1.58rem;
     line-height: 2.4rem;
+  }
+
+  .author {
+    font-size: 1.42rem;
+    font-weight: 800;
+  }
+  
+  .authorPicture {
+    width: 3.2rem;
   }
 }
