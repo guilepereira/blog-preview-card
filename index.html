@@ -1,49 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="assets/main.css">
-  <link rel="stylesheet" href="assets/card.css">
-  <link rel="stylesheet" href="assets/queries.css">
+
+  <link rel="stylesheet" href="root.css">
+  <link rel="stylesheet" href="card.css">
+  <link rel="stylesheet" href="content.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="queries.css">
   
   <title>Frontend Mentor | Blog preview card</title>
-  <meta name="description" content="Frontend Mentor Challenge, executed by Guile Pereira.">
 </head>
 
 <body>
-  <main class="card">
-    
-    <img class="cardImage" src="assets/images/illustration-article.svg" alt="article image">
-    
-    <div class="cardContent">
-      <div class="cardHeader">
-        <span>Learning</span>
-        <small>Published 21 Dec 2023</small>
-      </div>
-    
-      <a class="cardTitle" href="#">HTML & CSS foundations</a>
-      <p class="cardDescription">These languages are the backbone of every website, defining structure, content, and presentation.</p>
-    </div>
-  
-    <div class="author">
-      <img class="authorPicture" src="assets/images/image-avatar.webp" alt="author photo">
-      <author>Greg Hooper</author>
-    </div>
-    
-  </main>
-  
-  <div class="attribution">
-    <p>
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
-    </p>
-    <p>
-      Solved by <a href="https://github.com/guilepereira">Guile Pereira</a>
-    </p>
-  </div>
+  <main>
+    <img src="assets/images/illustration-article.svg" alt="">
 
-  <script src="assets/script.js"></script>
+    <div class="content">
+      <span class="content_tag">Learning</span>
+      <p class="postDate">Published 21 Dec 2023</p>
+      <h1>HTML & CSS foundations</h1>
+      <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    </div>
+    
+    <div class="author">
+      <img class="author_image" src="assets/images/image-avatar.webp" alt="">
+      <cite class="author_name">Greg Hooper</cite>
+    </div>
+  </main>
+
+  <footer>
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/guilepereira" target="_blank">Guile Pereira</a>.</p>
+  </footer>
 </body>
 </html>

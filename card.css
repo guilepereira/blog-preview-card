@@ -1,0 +1,18 @@
+main {
+    background-color: var(--color-white);
+
+    width: 384px;
+    border: solid 1px #111;
+    border-radius: 20px;
+    padding: 24px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    box-shadow: 8px 8px var(--color-black);
+}
+
+main img {
+    border-radius: 10px;
+}
