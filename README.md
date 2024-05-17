@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Live Site](https://guilepereira.github.io/blog-preview-card/)
+- [Solution on Frontend Mentor](https://your-solution-url.com)
 
 ## My process
 
@@ -46,5 +46,5 @@ Review and practice of HTML and CSS content.
 
 ## Author
 
-- Website - [Guile Pereira](https://github.com/guilepereira)
+- Website - [Guile Pereira](https://www.linkedin.com/in/guilevpereira)
 - Frontend Mentor - [@guilepereira](https://www.frontendmentor.io/profile/guilepereira)
