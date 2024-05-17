@@ -26,15 +26,15 @@
 }
 
 .content .content_title {
-    font-size: 1.4285em;
+    font-size: 1.5em;
     font-weight: 800;
-    line-height: 150%;
+    line-height: 145%;
 }
 
 .content .content_date {
     color: var(--color-black);
 
-    font-size: .857143em;
+    font-size: .875em;
     font-weight: 500;
 }
 
