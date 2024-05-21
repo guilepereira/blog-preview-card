@@ -17,7 +17,7 @@
 
 
 html {
-    font-size: 16px;
+    font-size: 62.5%;
 }
 
 body {
@@ -34,66 +34,67 @@ body {
 }
 
 .card {
-    max-width: 384px;
-    padding: 24px;
+    max-width: 38.4rem;
+    padding: 2.4rem;
     
     background-color: var(--color-white);
-    box-shadow: 8px 8px var(--color-black);
+    box-shadow: .8rem .8rem var(--color-black);
 
-    border-radius: 20px;
-    outline: solid 1px #111;
+    border-radius: 2rem;
+    outline: solid .1rem #111;
     outline-offset: -1px;
 
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 2.4rem;
 }
 
 .card__image {
-    height: 200px;
+    height: 20rem;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 .card__image img {
     height: 100%;
+    width: 100%;
     object-fit: cover;
 }
 
 .card__content {
-    font-size: 1em;
+    font-size: 1.4rem;
 
     display: flex;
     flex-direction: column;
-    gap: .75em;
+    gap: 1.2rem;
 }
 
 .card__content__tag {
     width: fit-content;
-    padding: .2857em .8571em;
+    padding: .5rem 1.25rem;
     
-    font-size: .875em;
+    font-size: 1.4rem;
     font-weight: 800;
     line-height: 145%;
 
-    border-radius: .25em;
+    border-radius: .4rem;
     box-shadow: inset 0 0 0 0 transparent;
     background-color: var(--color-main);
 }
 .card__content__tag:hover {
     background-color: var(--color-white);
-    box-shadow: inset 0 0 0 .125em var(--color-main);
+    box-shadow: inset 0 0 0 .8rem var(--color-main);
     cursor: pointer;
 }
 
 .card__content__date {
     color: var(--color-black);
 
-    font-size: .875em;
+    font-size: 1.4rem;
     font-weight: 500;
 }
 
 .card__content__title {
-    font-size: 1.5em;
+    font-size: 2.4rem;
     font-weight: 800;
     line-height: 150%;
 }
@@ -103,6 +104,7 @@ body {
 }
 
 .card__content__description {
+    font-size: 1.6rem;
     color: var(--color-gray);
     font-weight: 500;
     line-height: 150%;
@@ -111,19 +113,19 @@ body {
 .card__author {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 1.2rem;
 }
 
 .card__author__image {
-    height: 32px;
-    width: 32px;
+    height: 3.2rem;
+    width: 3.2rem;
     display: inline-block;
 }
 
 .card__author__name {
     color: var(--color-black);
 
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 800;
     font-style: normal;
 }
@@ -134,19 +136,19 @@ body {
 
 .attribution {
     position: absolute;
-    bottom: 15px;
+    bottom: 1.5rem;
 
-    font-size: 11px;
+    font-size: 1.1rem;
     text-align: center;
 }
 
 .attribution p {
-    font-size: 11px;
+    font-size: 1.1rem;
 }
 
 .attribution a {
     color: var(--color-black);
-    font-size: 11px;
+    font-size: 1.1rem;
 }
 .attribution a:hover {
     color: var(--color-white);
@@ -157,7 +159,7 @@ body {
 @media (max-width: 400px) {
 
     html {
-        font-size: 14px;
+        font-size: 71.43%;
         line-height: 1.5;
     }
 
