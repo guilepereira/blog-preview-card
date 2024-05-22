@@ -29,9 +29,9 @@ Users should be able to:
 
 ### Links
 
-[Live page](https://your-live-site-url.com)
+[Live page](https://guilepereira.github.io/blog-preview-card)
 
-[Solution on Frontend Mentor](https://your-solution-url.com)
+[Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-blog-preview-card-TphRfqtFky)
 
 ## My process
 
