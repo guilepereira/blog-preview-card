@@ -10,7 +10,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Context] (#context)
+  - [Context](#context)
 - [Author](#author)
 
 ## Overview
@@ -29,8 +29,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+[Live page](https://your-live-site-url.com)
+
+[Solution on Frontend Mentor](https://your-solution-url.com)
 
 ## My process
 
@@ -40,7 +41,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 
-### Context
+## Context
 
 Review and practice of HTML and CSS content.
 
