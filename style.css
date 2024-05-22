@@ -15,7 +15,6 @@
 
 /* //////////////////////////////// */
 
-
 html {
     font-size: 62.5%;
 }
@@ -39,6 +38,7 @@ body {
     
     background-color: var(--color-white);
     box-shadow: .8rem .8rem var(--color-black);
+    transition: all 400ms ease;
 
     border-radius: 2rem;
     outline: solid .1rem #111;
@@ -47,6 +47,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2.4rem;
+}
+.card:hover {
+    box-shadow: .2rem .2rem var(--color-black);
 }
 
 .card__image {
@@ -70,7 +73,7 @@ body {
 
 .card__content__tag {
     width: fit-content;
-    padding: .5rem 1.25rem;
+    padding: .436rem 1.249rem;
     
     font-size: 1.4rem;
     font-weight: 800;
@@ -79,10 +82,12 @@ body {
     border-radius: .4rem;
     box-shadow: inset 0 0 0 0 transparent;
     background-color: var(--color-main);
+
+    transition: all 400ms ease;
 }
 .card__content__tag:hover {
     background-color: var(--color-white);
-    box-shadow: inset 0 0 0 .8rem var(--color-main);
+    box-shadow: inset 0 0 0 .2rem var(--color-main);
     cursor: pointer;
 }
 
@@ -97,6 +102,8 @@ body {
     font-size: 2.4rem;
     font-weight: 800;
     line-height: 150%;
+
+    transition: color 400ms ease;
 }
 .card__content__title:hover {
     color: var(--color-main);
@@ -124,6 +131,7 @@ body {
 
 .card__author__name {
     color: var(--color-black);
+    transition: all 400ms ease;
 
     font-size: 1.4rem;
     font-weight: 800;
@@ -147,8 +155,9 @@ body {
 }
 
 .attribution a {
-    color: var(--color-black);
     font-size: 1.1rem;
+    color: var(--color-black);
+    transition: color 400ms ease;
 }
 .attribution a:hover {
     color: var(--color-white);
@@ -159,12 +168,11 @@ body {
 @media (max-width: 400px) {
 
     html {
-        font-size: 71.43%;
         line-height: 1.5;
     }
 
     .card {
-        max-width: 327px;
+        max-width: 32.7rem;
     }
     
     .card__image img {
@@ -172,27 +180,31 @@ body {
     }
 
     .card__content {
-        gap: .85715em;
+        gap: 1.2rem;
     }
 
     .card__content__tag {
-        padding: .3333em 1em;
-        font-size: .857143em;
+        font-size: 1.2rem;
+        padding: .43rem 1.205rem;
+        line-height: 1.45;
     }
 
     .card__content__date {
-        font-size: .87em;
+        font-size: 1.2rem;
         line-height: 1.5;
     }
 
     .card__content__title {
-        font-size: 1.428571em;
+        font-size: 2rem;
         font-weight: 800;
-        line-height: 150%;
+        line-height: 1.5;
     }
     .card__content__title:hover {
         color: var(--color-main);
         cursor: pointer;
     }
-}
 
+    .card__content__description {
+        font-size: 1.4rem;
+    }
+}

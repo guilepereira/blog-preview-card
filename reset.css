@@ -21,13 +21,13 @@ img, picture, video, canvas, svg {
   max-width: 100%;
 }
 
-ul[role="list"], ol[role="list"] {
+/* ul[role="list"], ol[role="list"] {
   list-style: none;
 }
 
 a:not([class]) {
   text-decoration-skip-ink: auto;
-}
+} */
 
 input, button, textarea, select {
   font: inherit;
